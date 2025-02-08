@@ -1,0 +1,84 @@
+{
+  "php.validate.executablePath": "C:/xampp/php/php.exe",
+
+  //remove noise
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "scm.diffDecorations": "gutter",
+  "editor.hover.enabled": true,
+  "workbench.tips.enabled": false,
+  "workbench.startupEditor": "none",
+  "editor.lightbulb.enabled": "off",
+  "editor.overviewRulerBorder": false,
+  "editor.renderLineHighlight": "none",
+  "editor.renderControlCharacters": true,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.gotoLocation.multipleReferences": "goto",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.copyWithSyntaxHighlighting": false,
+  "window.newWindowDimensions": "inherit",
+  "files.trimTrailingWhitespace": true,
+  "diffEditor.renderSideBySide": false,
+  "editor.snippetSuggestions": "top",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "editor.guides.indentation": true,
+  "chat.commandCenter.enabled": false,
+  "breadcrumbs.enabled": false,
+  "window.menuBarVisibility": "hidden",
+  "editor.showFoldingControls": "mouseover",
+  "editor.padding.bottom": 2,
+  "editor.padding.top": 2,
+  "window.title": " ",
+  "workbench.layoutControl.enabled": false,
+  "workbench.layoutControl.type": "menu",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "window.commandCenter": false,
+  "editor.stickyScroll.enabled": false,
+  "workbench.tree.indent": 10,
+
+  //   "workbench.tree.renderIndentGuides": "none",
+  //   "workbench.editor.showTabs": "none",
+  //   "editor.glyphMargin": false,
+
+  //experiment with these a lil
+  //   "editor.occurrencesHighlight": "off",
+  "editor.wordBasedSuggestions": "allDocuments",
+  "editor.detectIndentation": true,
+  "editor.insertSpaces": false,
+  "editor.tabSize": 4,
+
+  "vscode_custom_css.imports": [
+    "file:///E:/Asforaa/Saves/vscodeConfig/custom-vscode.css",
+    "file:///E:/Asforaa/Saves/vscodeConfig/vscode-script.js"
+  ],
+
+  //theme colors
+  "workbench.colorCustomizations": {
+    "tab.activeBackground": "#181818",
+    "editor.background": "#181818",
+    "sideBar.background": "#181818",
+    "sideBar.border": "#2b2b2b00",
+    "tab.border": "#2b2b2b00",
+    "tab.activeBorderTop": "#0078d4",
+    "tab.activeBorder": "#1f1f1f00",
+    "activityBar.border": "#ffffff00",
+    "statusBar.border": "#ffffff00",
+    "statusBar.foreground": "#ffffff63",
+    "panel.border": "#2b2b2b00",
+    "editorGroupHeader.border": "#2b2b2b00",
+    "editorGroupHeader.tabsBorder": "#2b2b2b00",
+    "titleBar.border": "#ffffff00",
+    "scrollbar.shadow": "#000000"
+  },
+
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+  "todo-tree.general.statusBar": "total",
+  "todo-tree.general.showActivityBarBadge": true,
+  "mssql.enableRichExperiencesDoNotShowPrompt": true,
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
+  "editor.wordWrap": "on"
+}

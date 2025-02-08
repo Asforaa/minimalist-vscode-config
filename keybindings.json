@@ -1,0 +1,45 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+d",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.duplicateSelection"
+	},
+	{
+		"key": "ctrl+shift+d",
+		"command": "-mssql.disconnect",
+		"when": "editorTextFocus && editorLangId == 'sql'"
+	},
+	{
+		"key": "ctrl+shift+d",
+		"command": "-workbench.view.debug",
+		"when": "viewContainer.workbench.view.debug.enabled"
+	},
+	{
+		"key": "ctrl+shift+d",
+		"command": "editor.action.deleteLines",
+		"when": "textInputFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+shift+k",
+		"command": "-editor.action.deleteLines",
+		"when": "textInputFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+shift+m",
+		"command": "postman-for-vscode.sidebar-panel.focus"
+	},
+	{
+		"key": "unknown",
+		"command": "-postman-for-vscode.sidebar-panel.focus"
+	},
+	{
+		"key": "ctrl+shift+m",
+		"command": "-workbench.actions.view.problems",
+		"when": "workbench.panel.markers.view.active"
+	}
+]

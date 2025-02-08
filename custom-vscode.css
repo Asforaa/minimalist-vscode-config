@@ -1,0 +1,91 @@
+
+/* Scroll Bar */
+.slider {
+    position: absolute !important;
+    right: 1px !important;
+    width: 4px !important;
+    background: #f7f7f791 !important;
+    left: auto !important;
+}
+
+.codicon-toolbar-more, .codicon-word-wrap {
+    display: block !important;
+}
+
+/* File explorer action buttons */
+.monaco-workbench .part.sidebar .title-actions .actions-container {
+    display: none;
+}
+
+/* Tooltip box style */
+.monaco-editor-hover,
+.monaco-hover {
+    box-shadow: 0px 8px 32px rgba(0,0,0,.45) !important;
+    background: rgba(30, 30, 30, 0.8) !important;
+    backdrop-filter: blur(10px) !important;
+    border: none !important
+}
+
+/* Command Palette */
+.quick-input-widget {
+    transform: translateY(-50%) !important;
+    top: 50% !important;
+    background: rgba(30, 30, 30, 0.8) !important;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, .45) !important;
+    padding: 10px 10px 18px 10px !important;
+    backdrop-filter: blur(3px) !important;
+}
+
+/* Command palette text input */
+.quick-input-filter .monaco-inputbox {
+    margin-bottom: 16px !important;
+}
+
+/* Remove background for lists */
+.monaco-list-rows {
+    background: transparent !important;
+}
+
+/* List hover */
+.monaco-list-row:hover {
+    background: rgba(0, 0, 0, .2) !important;
+}
+
+.notifications-toasts .monaco-list-row:hover {
+    background: none !important;
+}
+
+#command-blur {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .15);
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(8px);
+}
+
+/* Container that holds the VS Code home icon. */
+.editor-group-watermark {
+    max-width: none !important;
+}
+
+.command-center-center {
+    width:  auto !important;
+}
+
+
+/* add at the bottom, very important:
+background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0'.....) !important;
+background-repeat: no-repeat no-repeat !important;
+background-position: center center !important;
+background-size: contain !important;
+width: 60% !important; */
+.letterpress {
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 20010904//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'%3E%3Csvg version='1.0' xmlns='http://www.w3.org/2000/svg' width='564.000000pt' height='564.000000pt' viewBox='0 0 564.000000 564.000000' preserveAspectRatio='xMidYMid meet'%3E%3Cg transform='translate(0.000000,564.000000) scale(0.100000,-0.100000)'%0Afill='%23AABAC6' stroke='none'%3E%3Cpath d='M3159 4270 c-38 -11 -103 -57 -128 -91 -12 -17 -36 -50 -52 -74 -36%0A-54 -111 -105 -154 -105 -35 0 -96 36 -170 100 -100 87 -181 103 -241 48 -32%0A-30 -35 -39 -41 -103 -4 -55 -1 -89 17 -155 44 -165 45 -190 17 -246 -13 -27%0A-32 -72 -41 -101 -22 -66 -14 -98 50 -193 102 -151 107 -160 106 -191 -1 -47%0A-26 -76 -104 -116 -85 -45 -223 -146 -296 -217 -101 -97 -199 -243 -310 -456%0A-24 -47 -78 -136 -120 -198 -152 -224 -192 -294 -189 -332 3 -50 50 -80 128%0A-81 33 -1 65 -2 72 -3 14 -1 15 -137 3 -466 -9 -234 -6 -257 41 -287 24 -16%0A68 -19 453 -26 483 -10 967 -13 1244 -9 268 4 281 12 297 197 12 146 17 240%0A24 420 3 88 8 175 11 192 l5 33 84 -1 c95 -2 130 13 141 57 8 32 -4 55 -94%0A179 -131 182 -186 245 -215 252 -20 4 -26 10 -22 21 13 35 69 436 80 572 3 42%0A-1 134 -9 210 -16 144 -32 198 -124 432 -63 158 -89 209 -141 278 -23 30 -46%0A73 -51 95 -37 152 -116 328 -159 349 -36 18 -81 25 -112 16z m-39 -468 c47%0A-48 58 -161 22 -229 -32 -59 -99 -70 -150 -24 -17 17 -32 34 -32 38 -1 4 -5%0A27 -9 51 -5 23 -4 64 0 90 17 94 108 134 169 74z m-381 -31 c37 -36 45 -65 39%0A-137 -10 -121 -121 -155 -173 -54 -17 34 -20 116 -4 157 24 66 89 82 138 34z%0Am164 -1560 c18 -7 26 -15 21 -23 -27 -46 -241 -301 -258 -307 -11 -5 -109 -11%0A-216 -14 -107 -4 -223 -11 -258 -17 -65 -11 -509 -6 -549 6 -13 3 -23 11 -23%0A16 0 21 242 343 263 351 28 9 993 -2 1020 -12z m773 -58 c21 -31 65 -95 96%0A-142 l58 -86 -169 -7 c-210 -10 -237 -5 -272 47 -45 68 -129 219 -129 232 0%0A10 41 13 189 13 l188 0 39 -57z m-640 -58 c3 -14 4 -44 0 -68 -3 -23 -8 -184%0A-12 -357 -3 -173 -7 -355 -9 -405 -2 -49 -3 -117 -4 -149 l-1 -59 -317 7%0Ac-324 7 -697 21 -812 32 l-63 6 3 318 c3 175 8 322 12 326 4 4 96 11 205 15%0A108 5 242 13 297 18 55 6 163 10 239 11 195 0 211 10 343 208 85 127 107 145%0A119 97z m194 -102 c76 -146 102 -173 169 -173 26 0 96 -3 154 -7 l107 -6 -1%0A-96 c-1 -140 -24 -619 -30 -625 -3 -3 -110 -7 -239 -8 l-234 -3 -9 35 c-10 35%0A1 910 12 993 2 17 12 1 71 -110z'/%3E%3Cpath d='M3010 3761 c-16 -30 -12 -102 8 -141 13 -26 23 -35 42 -35 20 0 28 8%0A37 35 14 40 7 104 -14 137 -19 28 -59 30 -73 4z'/%3E%3Cpath d='M2661 3746 c-22 -26 -25 -84 -6 -131 13 -36 21 -45 40 -45 30 0 45%0A26 45 80 0 83 -45 138 -79 96z'/%3E%3Cpath d='M2014 1659 c-15 -16 -19 -36 -19 -90 0 -78 15 -98 72 -99 59 0 82 84%0A43 159 -28 55 -63 66 -96 30z'/%3E%3Cpath d='M2617 1669 c-24 -14 -47 -69 -47 -112 0 -73 80 -117 115 -64 54 84 2%0A218 -68 176z'/%3E%3Cpath d='M2269 1371 c-261 -6 -289 -11 -289 -47 0 -19 38 -41 90 -52 27 -6%0A153 -7 307 -3 l263 6 27 27 c27 28 27 28 8 47 -26 26 -87 29 -406 22z'/%3E%3C/g%3E%3C/svg%3E%0A") !important;
+
+    background-repeat: no-repeat no-repeat !important;
+    background-position: center center !important;
+    background-size: contain !important;
+    width: 50% !important;
+}
