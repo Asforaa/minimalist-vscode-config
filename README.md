@@ -1,8 +1,14 @@
 # Instructions
 
+## Preivew imgs
+
+![custom vscode artwork](<preview%20imgs/Screenshot%20(140).png>)
+![code experience](<preview%20imgs/Screenshot%20(141).png>)
+![custom dialog box effect](<preview%20imgs/Screenshot%20(142).png>)
+
 **NOTE:** Please take time to read the short documentation of **"Custom CSS and JS Loader"** for some useful tips for various operating systems to avoid issues regarding the changes not taking effect.
 
-### install extensions:
+## install extensions:
 
 - Window:
 
@@ -21,11 +27,11 @@ do
 done < "$input"
 ```
 
-### svg to css (to change the vscode art with what u want):
+## svg to css (to change the vscode art with what u want):
 
 - https://bloggerpilot.com/en/tools/svg-to-css/
 
-### how to add custom css in vscode
+## how to add custom css in vscode
 
 1. Install "Custom CSS and JS Loader" VS Code Extension.
 2. Copy the contents of settings.json to your VS Code's settings.json (warning: it will overwrite your settings).
