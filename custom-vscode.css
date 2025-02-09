@@ -63,6 +63,7 @@
     top: 0;
     left: 0;
     backdrop-filter: blur(8px);
+    z-index: 100;
 }
 
 /* Container that holds the VS Code home icon. */
